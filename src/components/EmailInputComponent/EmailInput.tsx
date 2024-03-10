@@ -15,7 +15,7 @@ const Input: React.FC<InputProps> = ({ type, placeholder, value, onChange }) => 
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className='input-field'
+        className='input-box'
       />
     );
 };
